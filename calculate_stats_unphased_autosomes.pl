@@ -313,7 +313,7 @@ while (<$infile>) {
 		  $rsquare2 = "NA";
 		} 
 		
-		print $outfile "$windownum\t$chr\t$windowstart\t$snpUnique2\t$snpUnique\t$snpShared\t$pi2\t$pi\t$theta2\t$theta\t$tajimasd2\t$tajimasd\t$fwh2\t$fwh$rsquare2\t$rsquare\t$fst\n";
+		print $outfile "$windownum\t$chr\t$windowstart\t$snpUnique2\t$snpUnique\t$snpShared\t$pi2\t$pi\t$theta2\t$theta\t$tajimasd2\t$tajimasd\t$fwh2\t$fwh\t$rsquare2\t$rsquare\t$fst\n";
 		
 	      }
 	    }
